@@ -1,6 +1,8 @@
 # BetterPS-Safari
 Port of [BetterPS](https://github.com/zNotChill/betterps) to Apple WebKit for macOS.
 
+**Note: .xcodeproj file will not be uploaded for privacy reasons. Please initiate a new project on your machine with this code.**
+
 # QoL Features
 This extension adds even more to the navigation bar, including a Skript Directory option! Allowing for less inconvenience whilst you update Skript files.
 
