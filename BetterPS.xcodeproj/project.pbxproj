@@ -93,6 +93,7 @@
 		27422FF52827FB9E0053403A /* BetterPS_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterPS_Extension.entitlements; sourceTree = "<group>"; };
 		274230052827FE180053403A /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		276412B1282807A10096411F /* extraTools.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = extraTools.css; sourceTree = "<group>"; };
+		2783D95328315B4700839E87 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 		27422FA82827FB990053403A = {
 			isa = PBXGroup;
 			children = (
+				2783D95328315B4700839E87 /* .gitignore */,
 				27422FB32827FB990053403A /* BetterPS */,
 				27422FD02827FB9E0053403A /* BetterPSTests */,
 				27422FDA2827FB9E0053403A /* BetterPSUITests */,
