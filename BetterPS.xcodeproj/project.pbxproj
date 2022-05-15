@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27422FB52827FB990053403A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FB42827FB990053403A /* AppDelegate.swift */; };
+		27422FB92827FB990053403A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 27422FB72827FB990053403A /* Main.html */; };
+		27422FBB2827FB990053403A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27422FBA2827FB990053403A /* Icon.png */; };
+		27422FBD2827FB990053403A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 27422FBC2827FB990053403A /* Style.css */; };
+		27422FBF2827FB990053403A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 27422FBE2827FB990053403A /* Script.js */; };
+		27422FC12827FB990053403A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FC02827FB990053403A /* ViewController.swift */; };
+		27422FC42827FB990053403A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27422FC22827FB990053403A /* Main.storyboard */; };
+		27422FC62827FB9E0053403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27422FC52827FB9E0053403A /* Assets.xcassets */; };
+		27422FD22827FB9E0053403A /* BetterPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FD12827FB9E0053403A /* BetterPSTests.swift */; };
+		27422FDC2827FB9E0053403A /* BetterPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FDB2827FB9E0053403A /* BetterPSUITests.swift */; };
+		27422FDE2827FB9E0053403A /* BetterPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FDD2827FB9E0053403A /* BetterPSUITestsLaunchTests.swift */; };
+		27422FE42827FB9E0053403A /* BetterPS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27422FE32827FB9E0053403A /* BetterPS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27422FE92827FB9E0053403A /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FE82827FB9E0053403A /* SafariExtensionHandler.swift */; };
+		27422FEB2827FB9E0053403A /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422FEA2827FB9E0053403A /* SafariExtensionViewController.swift */; };
+		27422FEE2827FB9E0053403A /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 27422FED2827FB9E0053403A /* script.js */; };
+		27422FF02827FB9E0053403A /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27422FEF2827FB9E0053403A /* ToolbarItemIcon.pdf */; };
+		27422FF32827FB9E0053403A /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27422FF12827FB9E0053403A /* SafariExtensionViewController.xib */; };
+		274230062827FE180053403A /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 274230052827FE180053403A /* jquery.js */; };
+		276412B2282807A10096411F /* extraTools.css in Resources */ = {isa = PBXBuildFile; fileRef = 276412B1282807A10096411F /* extraTools.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27422FCE2827FB9E0053403A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27422FA92827FB990053403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27422FB02827FB990053403A;
+			remoteInfo = BetterPS;
+		};
+		27422FD82827FB9E0053403A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27422FA92827FB990053403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27422FB02827FB990053403A;
+			remoteInfo = BetterPS;
+		};
+		27422FE52827FB9E0053403A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27422FA92827FB990053403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27422FE22827FB9E0053403A;
+			remoteInfo = "BetterPS Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27422FFB2827FB9E0053403A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				27422FE42827FB9E0053403A /* BetterPS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27422FB12827FB990053403A /* BetterPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27422FB42827FB990053403A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27422FB82827FB990053403A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		27422FBA2827FB990053403A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		27422FBC2827FB990053403A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		27422FBE2827FB990053403A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		27422FC02827FB990053403A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27422FC32827FB990053403A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27422FC52827FB9E0053403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27422FC72827FB9E0053403A /* BetterPS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterPS.entitlements; sourceTree = "<group>"; };
+		27422FC82827FB9E0053403A /* BetterPS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterPS.entitlements; sourceTree = "<group>"; };
+		27422FCD2827FB9E0053403A /* BetterPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27422FD12827FB9E0053403A /* BetterPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterPSTests.swift; sourceTree = "<group>"; };
+		27422FD72827FB9E0053403A /* BetterPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27422FDB2827FB9E0053403A /* BetterPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterPSUITests.swift; sourceTree = "<group>"; };
+		27422FDD2827FB9E0053403A /* BetterPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27422FE32827FB9E0053403A /* BetterPS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BetterPS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27422FE82827FB9E0053403A /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		27422FEA2827FB9E0053403A /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		27422FED2827FB9E0053403A /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		27422FEF2827FB9E0053403A /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		27422FF22827FB9E0053403A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		27422FF42827FB9E0053403A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27422FF52827FB9E0053403A /* BetterPS_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterPS_Extension.entitlements; sourceTree = "<group>"; };
+		274230052827FE180053403A /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		276412B1282807A10096411F /* extraTools.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = extraTools.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27422FAE2827FB990053403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FCA2827FB9E0053403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FD42827FB9E0053403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FE02827FB9E0053403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27422FA82827FB990053403A = {
+			isa = PBXGroup;
+			children = (
+				27422FB32827FB990053403A /* BetterPS */,
+				27422FD02827FB9E0053403A /* BetterPSTests */,
+				27422FDA2827FB9E0053403A /* BetterPSUITests */,
+				27422FE72827FB9E0053403A /* BetterPS Extension */,
+				27422FB22827FB990053403A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27422FB22827FB990053403A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27422FB12827FB990053403A /* BetterPS.app */,
+				27422FCD2827FB9E0053403A /* BetterPSTests.xctest */,
+				27422FD72827FB9E0053403A /* BetterPSUITests.xctest */,
+				27422FE32827FB9E0053403A /* BetterPS Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27422FB32827FB990053403A /* BetterPS */ = {
+			isa = PBXGroup;
+			children = (
+				27422FB42827FB990053403A /* AppDelegate.swift */,
+				27422FC02827FB990053403A /* ViewController.swift */,
+				27422FC22827FB990053403A /* Main.storyboard */,
+				27422FC52827FB9E0053403A /* Assets.xcassets */,
+				27422FC72827FB9E0053403A /* BetterPS.entitlements */,
+				27422FC82827FB9E0053403A /* BetterPS.entitlements */,
+				27422FB62827FB990053403A /* Resources */,
+			);
+			path = BetterPS;
+			sourceTree = "<group>";
+		};
+		27422FB62827FB990053403A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27422FB72827FB990053403A /* Main.html */,
+				27422FBA2827FB990053403A /* Icon.png */,
+				27422FBC2827FB990053403A /* Style.css */,
+				27422FBE2827FB990053403A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27422FD02827FB9E0053403A /* BetterPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				27422FD12827FB9E0053403A /* BetterPSTests.swift */,
+			);
+			path = BetterPSTests;
+			sourceTree = "<group>";
+		};
+		27422FDA2827FB9E0053403A /* BetterPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27422FDB2827FB9E0053403A /* BetterPSUITests.swift */,
+				27422FDD2827FB9E0053403A /* BetterPSUITestsLaunchTests.swift */,
+			);
+			path = BetterPSUITests;
+			sourceTree = "<group>";
+		};
+		27422FE72827FB9E0053403A /* BetterPS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27422FE82827FB9E0053403A /* SafariExtensionHandler.swift */,
+				27422FEA2827FB9E0053403A /* SafariExtensionViewController.swift */,
+				27422FF12827FB9E0053403A /* SafariExtensionViewController.xib */,
+				27422FF42827FB9E0053403A /* Info.plist */,
+				27422FF52827FB9E0053403A /* BetterPS_Extension.entitlements */,
+				27422FEC2827FB9E0053403A /* Resources */,
+			);
+			path = "BetterPS Extension";
+			sourceTree = "<group>";
+		};
+		27422FEC2827FB9E0053403A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				274230052827FE180053403A /* jquery.js */,
+				27422FED2827FB9E0053403A /* script.js */,
+				27422FEF2827FB9E0053403A /* ToolbarItemIcon.pdf */,
+				276412B1282807A10096411F /* extraTools.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27422FB02827FB990053403A /* BetterPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27422FFC2827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPS" */;
+			buildPhases = (
+				27422FAD2827FB990053403A /* Sources */,
+				27422FAE2827FB990053403A /* Frameworks */,
+				27422FAF2827FB990053403A /* Resources */,
+				27422FFB2827FB9E0053403A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27422FE62827FB9E0053403A /* PBXTargetDependency */,
+			);
+			name = BetterPS;
+			productName = BetterPS;
+			productReference = 27422FB12827FB990053403A /* BetterPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27422FCC2827FB9E0053403A /* BetterPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27422FFF2827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPSTests" */;
+			buildPhases = (
+				27422FC92827FB9E0053403A /* Sources */,
+				27422FCA2827FB9E0053403A /* Frameworks */,
+				27422FCB2827FB9E0053403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27422FCF2827FB9E0053403A /* PBXTargetDependency */,
+			);
+			name = BetterPSTests;
+			productName = BetterPSTests;
+			productReference = 27422FCD2827FB9E0053403A /* BetterPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27422FD62827FB9E0053403A /* BetterPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274230022827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPSUITests" */;
+			buildPhases = (
+				27422FD32827FB9E0053403A /* Sources */,
+				27422FD42827FB9E0053403A /* Frameworks */,
+				27422FD52827FB9E0053403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27422FD92827FB9E0053403A /* PBXTargetDependency */,
+			);
+			name = BetterPSUITests;
+			productName = BetterPSUITests;
+			productReference = 27422FD72827FB9E0053403A /* BetterPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		27422FE22827FB9E0053403A /* BetterPS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27422FF82827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPS Extension" */;
+			buildPhases = (
+				27422FDF2827FB9E0053403A /* Sources */,
+				27422FE02827FB9E0053403A /* Frameworks */,
+				27422FE12827FB9E0053403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterPS Extension";
+			productName = "BetterPS Extension";
+			productReference = 27422FE32827FB9E0053403A /* BetterPS Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27422FA92827FB990053403A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					27422FB02827FB990053403A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					27422FCC2827FB9E0053403A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 27422FB02827FB990053403A;
+					};
+					27422FD62827FB9E0053403A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 27422FB02827FB990053403A;
+					};
+					27422FE22827FB9E0053403A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 27422FAC2827FB990053403A /* Build configuration list for PBXProject "BetterPS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27422FA82827FB990053403A;
+			productRefGroup = 27422FB22827FB990053403A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27422FB02827FB990053403A /* BetterPS */,
+				27422FCC2827FB9E0053403A /* BetterPSTests */,
+				27422FD62827FB9E0053403A /* BetterPSUITests */,
+				27422FE22827FB9E0053403A /* BetterPS Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27422FAF2827FB990053403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422FBB2827FB990053403A /* Icon.png in Resources */,
+				27422FC42827FB990053403A /* Main.storyboard in Resources */,
+				27422FBF2827FB990053403A /* Script.js in Resources */,
+				27422FB92827FB990053403A /* Main.html in Resources */,
+				27422FC62827FB9E0053403A /* Assets.xcassets in Resources */,
+				27422FBD2827FB990053403A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FCB2827FB9E0053403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FD52827FB9E0053403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FE12827FB9E0053403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276412B2282807A10096411F /* extraTools.css in Resources */,
+				274230062827FE180053403A /* jquery.js in Resources */,
+				27422FF32827FB9E0053403A /* SafariExtensionViewController.xib in Resources */,
+				27422FF02827FB9E0053403A /* ToolbarItemIcon.pdf in Resources */,
+				27422FEE2827FB9E0053403A /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27422FAD2827FB990053403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422FC12827FB990053403A /* ViewController.swift in Sources */,
+				27422FB52827FB990053403A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FC92827FB9E0053403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422FD22827FB9E0053403A /* BetterPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FD32827FB9E0053403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422FDE2827FB9E0053403A /* BetterPSUITestsLaunchTests.swift in Sources */,
+				27422FDC2827FB9E0053403A /* BetterPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27422FDF2827FB9E0053403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422FEB2827FB9E0053403A /* SafariExtensionViewController.swift in Sources */,
+				27422FE92827FB9E0053403A /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27422FCF2827FB9E0053403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27422FB02827FB990053403A /* BetterPS */;
+			targetProxy = 27422FCE2827FB9E0053403A /* PBXContainerItemProxy */;
+		};
+		27422FD92827FB9E0053403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27422FB02827FB990053403A /* BetterPS */;
+			targetProxy = 27422FD82827FB9E0053403A /* PBXContainerItemProxy */;
+		};
+		27422FE62827FB9E0053403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27422FE22827FB9E0053403A /* BetterPS Extension */;
+			targetProxy = 27422FE52827FB9E0053403A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27422FB72827FB990053403A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27422FB82827FB990053403A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		27422FC22827FB990053403A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27422FC32827FB990053403A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27422FF12827FB9E0053403A /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27422FF22827FB9E0053403A /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27422FF62827FB9E0053403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27422FF72827FB9E0053403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		27422FF92827FB9E0053403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BetterPS Extension/BetterPS_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterPS Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterPS Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPS.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27422FFA2827FB9E0053403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BetterPS Extension/BetterPS_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterPS Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterPS Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPS.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		27422FFD2827FB9E0053403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterPS/BetterPS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPS;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27422FFE2827FB9E0053403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterPS/BetterPS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPS;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		274230002827FB9E0053403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterPS.app/Contents/MacOS/BetterPS";
+			};
+			name = Debug;
+		};
+		274230012827FB9E0053403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterPS.app/Contents/MacOS/BetterPS";
+			};
+			name = Release;
+		};
+		274230032827FB9E0053403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BetterPS;
+			};
+			name = Debug;
+		};
+		274230042827FB9E0053403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockarchitech.BetterPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BetterPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27422FAC2827FB990053403A /* Build configuration list for PBXProject "BetterPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27422FF62827FB9E0053403A /* Debug */,
+				27422FF72827FB9E0053403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27422FF82827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27422FF92827FB9E0053403A /* Debug */,
+				27422FFA2827FB9E0053403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27422FFC2827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27422FFD2827FB9E0053403A /* Debug */,
+				27422FFE2827FB9E0053403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27422FFF2827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274230002827FB9E0053403A /* Debug */,
+				274230012827FB9E0053403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274230022827FB9E0053403A /* Build configuration list for PBXNativeTarget "BetterPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274230032827FB9E0053403A /* Debug */,
+				274230042827FB9E0053403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27422FA92827FB990053403A /* Project object */;
+}

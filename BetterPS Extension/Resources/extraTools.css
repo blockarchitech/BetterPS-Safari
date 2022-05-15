@@ -1,0 +1,82 @@
+li.nav-item.betterps-navbar {
+    background-color: #fb8c248f;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+ul.nav.nav-pills.nav-sidebar.flex-column hr::before {
+    content: "BetterPS";
+    color: #fff;
+    font-size: 1.5rem;
+}
+i.fa.fa-folder {
+    color: #fb8c248f!important;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    object-fit: cover;
+}
+i.fa.fa-file {
+    color: #fb8c248f!important;
+    background-color: #fff;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: cover;
+}
+
+table.table.dataTables-users tbody tr td small { /* i shouldve made it like a h3 */
+    float: right!important;
+}
+
+/*
+    you know what lets just make the whole site dark mode!!!!
+*/
+
+.content-wrapper {
+    background-color: #222222 !important;
+}
+h1.m-0.text-dark {
+    color: #fff!important;
+}
+.card {
+  background-color: #303030!important;
+  border: 1px solid transparent;
+  color: #fff;
+}
+input.form-control {
+  background-color: #222222 !important;
+  color: #fff;
+}
+.CodeMirror {
+  background-color: #222222 !important;
+  color: #fff !important;
+}
+.CodeMirror-gutter {
+  background-color: #303030 !important;
+}
+.CodeMirror-gutter .CodeMirror-linenumbers {
+    background-color: #303030 !important;
+}
+select {
+    background-color: #222222 !important;
+    color: #fff !important;
+}
+/*
+    things that have triggered me far too long
+*/
+/* MOTD */
+div.form-group.row:nth-child(2) {
+    font-size: 0%;
+}
+div.form-group.row:nth-child(2) label::before {
+    content: 'Server MOTD';
+    font-size: 1rem; /* equivalent of using inherit */
+}
+/* ? */
+.fa-question-circle:before {
+    content: "INFO"!important;
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
